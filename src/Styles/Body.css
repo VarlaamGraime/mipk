@@ -134,3 +134,10 @@
     margin-top: 37px;
 
 }
+
+.sliderBox {
+    margin-top: 50px;
+    margin-left: 20%;
+    justify-content: center;
+    z-index: 1;
+}

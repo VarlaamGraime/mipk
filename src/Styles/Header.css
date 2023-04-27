@@ -4,6 +4,7 @@
     background: rgba(248, 249, 250, 1);
     height: 166px;
     position: fixed;
+    z-index: 2;
 }
 
 .topPartFlex {

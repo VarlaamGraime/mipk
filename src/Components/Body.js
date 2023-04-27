@@ -1,6 +1,7 @@
 import React from 'react';
 import BodyStyle from '../Styles/Body.css'
 import aboutUs from '../assets/aboutUs.png'
+import CompSlider from './CompSlider';
 
 const Body = () => {
     return (
@@ -9,7 +10,9 @@ const Body = () => {
             <div className='titleBox'>
                 <h2 className='titleBody'>Институт профессиональной переподготовкии повышения квалификации</h2>
             </div>
-            
+            <div className='sliderBox'>
+                <CompSlider/>
+            </div>
             <p className='titleClients'>За 2022 год наши клиенты получили более</p>
             <div className='blockDf'>
                 <div className='marginBlock'>

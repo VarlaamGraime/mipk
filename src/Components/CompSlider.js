@@ -4,8 +4,8 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import artBoard from '../assets/Artboard.png'
 import style from '../Styles/Style.css'
-import arrowL from '../Styles/arrowLeft.png'
-import arrowR from '../Styles/arrowRight.png'
+import arrowL from '../assets/arrowLeft.png'
+import arrowR from '../assets/arrowRight.png'
 
 
 const CompSlider = () => {
@@ -19,19 +19,7 @@ const CompSlider = () => {
       slidesToShow: 1,
       slidesToScroll: 1,
       prevArrow: <CustomPrevArrow />,
-      nextArrow: <CustomNextArrow />,
-      appendDots: (dots) => (
-      <div style={{ marginTop: '20px' }}>
-        <ul style={{ margin: '0px' }}> {dots} </ul>
-        <div style={{ textAlign: 'center' }}>
-          <button >Custom Button 1</button>
-          <button >Custom Button 2</button>
-          <button >Custom Button 2</button>
-          <button >Custom Button 2</button>
-            
-        </div>
-      </div>
-    ),
+      nextArrow: <CustomNextArrow />
   };
   
   function CustomPrevArrow(props) {

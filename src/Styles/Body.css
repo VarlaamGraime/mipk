@@ -1,0 +1,136 @@
+@import url(http://fonts.googleapis.com/css?family=Ubuntu);
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.bodyContent {
+    padding-top: 200px;
+}
+
+.navBody {
+    color: #505D68;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    margin-left: 406px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.titleBody {
+    width: 840px;
+    text-align: center;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 25px;
+    text-align: center;
+    color: #011645;
+
+}
+
+.titleBox {
+    display: flex;
+    justify-content: center;
+    margin-top: 28px;
+}
+
+.titleClients {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 25px;
+    text-align: center;
+    color: #011645;
+    margin-top: 100px;
+}
+
+.numberCounter {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgba(255, 0, 0, 1);
+}
+
+.dfNumber {
+    font-family: 'Ubuntu';
+    font-style: bold;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    color: #041741;
+    width: 118px;
+    margin-top: 13px;
+}
+
+.blockDf {
+    display: flex;
+    flex-direction: row;
+    margin-left: 500px;
+    margin-top: 69px;
+
+}
+
+.marginBlock {
+    margin-right: 140px;
+}
+
+.aboutTitle {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #011645;
+}
+
+.aboutTitleBlock {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 110px;
+}
+
+.aboutUsPict {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 164px;
+    margin-top: 20px;
+}
+
+.textAbout {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: justify;
+    color: black;
+    width: 1334px;
+    margin-left: 370px;
+    margin-top: 17px;
+
+}
+
+.textAboutMargin {
+    margin-top: 37px;
+
+}

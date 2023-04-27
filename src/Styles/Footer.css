@@ -1,0 +1,155 @@
+.containerFooter {
+    background: #041741;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    height: 410px;
+    width: 100%;
+    margin-top: 132px;
+    padding-left: 370px;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+.connectBlock {
+    margin-top: 38px;
+    margin-left: 15px;
+}
+
+.callButton {
+    width: 300px;
+    height: 46px;
+    left: 15px;
+    top: 0px;
+    background: #9C10E2;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    transition: background-color 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+.callButton:hover {
+    background: #8e3ab8bd;
+}
+
+.infoTextFoter {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+    cursor: pointer;
+    width: 176px;
+    margin-top: 30px;
+}
+
+.phoneFooter {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    margin-top: 34px;
+    cursor: pointer;
+
+}
+
+.mailFooter {
+    font-family: 'Ubuntu Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: flex-end;
+    color: #FFFFFF;
+    margin-top: 39px;
+    cursor: pointer;
+
+
+}
+
+.iconFooter {
+    max-width: 30px;
+    max-height: 30px;
+    margin-right: 10px;
+    cursor: pointer;
+    transform: translateY(10%);
+}
+
+.flexInfo {
+    display: flex;
+    flex-direction: row;
+}
+
+.infoTextFooterName {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    width: 300px;
+    margin-top: 32px;
+    margin-left: 38px;
+}
+
+.infoTextFooterReq {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.flexTextUp {
+    margin-top: 30px;
+}
+
+.flexText {
+    display: flex;
+    flex-direction: row;
+    margin-left: 38px;
+
+}
+
+
+.orderButton {
+    width: 300px;
+    height: 46px;
+    left: 15px;
+    top: 0px;
+    background: rgba(255, 0, 0, 1);
+    border-radius: 5px;
+    color: white;
+    border: none;
+    transition: background-color 0.5s ease-in-out;
+    cursor: pointer;
+    margin-top: 30px;
+    margin-left: 38px;
+
+}
+
+.orderButton:hover {
+    background: rgb(133, 16, 16);
+}
+
+.offertaText {
+    position: absolute;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    width: 500px;
+    margin-left: 70px;
+    bottom: -840px;
+}

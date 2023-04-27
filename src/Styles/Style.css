@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1913px;
+}
+
+html,
+body {
+    overflow-x: hidden;
+}

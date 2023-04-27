@@ -1,4 +1,4 @@
-import React from 'react';
+import {React, useState, useRef } from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
@@ -9,7 +9,8 @@ import arrowR from '../assets/arrowRight.png'
 
 
 const CompSlider = () => {
-  
+  const sliderRef = useRef(null);
+  const [currentSlide, setCurrentSlide] = useState(0);
  
 
   const settings = {
@@ -19,8 +20,28 @@ const CompSlider = () => {
       slidesToShow: 1,
       slidesToScroll: 1,
       prevArrow: <CustomPrevArrow />,
-      nextArrow: <CustomNextArrow />
+      nextArrow: <CustomNextArrow />,
+    appendDots: (dots) => (
+      <div className='dotsBox'>
+        <div  className="custom-dots-container">
+          <ul  className="custom-dots">{dots}</ul>
+        </div>
+      </div>
+    ),
+     customPaging: () => (
+    <div
+         style={{
+        border:'solid 5px rgba(0, 96, 255, 1)',
+        borderRadius: '50%',
+        width: '10px',
+        height: '10px',
+      }}
+    />
+  ),
   };
+
+ 
+ 
   
   function CustomPrevArrow(props) {
     const { onClick } = props;

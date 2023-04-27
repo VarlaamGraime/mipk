@@ -3,7 +3,7 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import artBoard from '../assets/Artboard.png'
-import style from '../Styles/Style.css'
+import style from '../Styles/Slider.css'
 import arrowL from '../assets/arrowLeft.png'
 import arrowR from '../assets/arrowRight.png'
 

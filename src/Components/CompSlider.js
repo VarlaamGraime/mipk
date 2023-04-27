@@ -9,9 +9,8 @@ import arrowR from '../assets/arrowRight.png'
 
 
 const CompSlider = () => {
-  const sliderRef = useRef(null);
-  const [currentSlide, setCurrentSlide] = useState(0);
  
+  
 
   const settings = {
       dots: true,
@@ -21,23 +20,13 @@ const CompSlider = () => {
       slidesToScroll: 1,
       prevArrow: <CustomPrevArrow />,
       nextArrow: <CustomNextArrow />,
-    appendDots: (dots) => (
+      appendDots: (dots) => (
       <div className='dotsBox'>
         <div  className="custom-dots-container">
           <ul  className="custom-dots">{dots}</ul>
         </div>
       </div>
     ),
-     customPaging: () => (
-    <div
-         style={{
-        border:'solid 5px rgba(0, 96, 255, 1)',
-        borderRadius: '50%',
-        width: '10px',
-        height: '10px',
-      }}
-    />
-  ),
   };
 
  
@@ -66,6 +55,7 @@ const CompSlider = () => {
           <Slider {...settings}>
             <div>
               <img src={artBoard} alt="Image 1" />
+              <button className='buttonSlide'>Подробнее</button>
             </div>
             <div>
               <img src={artBoard} alt="Image 2" />

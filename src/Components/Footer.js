@@ -31,7 +31,7 @@ const Footer = () => {
                     <div className='flexText'>
                         <p className='infoTextFooterReq'><span style={{ fontWeight: 'bold' }}>КПП</span>&nbsp;</p><p className='infoTextFooterReq'>784101001</p>
                     </div>
-                    <button className='orderButton'>Заказать звонок</button>
+                    <button className='orderButton'>Стать партером</button>
 
                 </div>
                 <p className='offertaText'>Информация на сайте не является публичной офертой

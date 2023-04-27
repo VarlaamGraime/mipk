@@ -7,7 +7,7 @@
 }
 
 .bodyContent {
-    padding-top: 200px;
+    padding-top: 150px;
 }
 
 .navBody {
@@ -32,7 +32,7 @@
     line-height: 25px;
     text-align: center;
     color: #011645;
-
+    transform: translateX(10%);
 }
 
 .titleBox {
@@ -49,7 +49,8 @@
     line-height: 25px;
     text-align: center;
     color: #011645;
-    margin-top: 100px;
+    transform: translateX(5%);
+
 }
 
 .numberCounter {
@@ -78,7 +79,7 @@
 .blockDf {
     display: flex;
     flex-direction: row;
-    margin-left: 500px;
+    margin-left: 600px;
     margin-top: 69px;
 
 }
@@ -94,6 +95,7 @@
     font-size: 24px;
     line-height: 29px;
     color: #011645;
+
 }
 
 .aboutTitleBlock {
@@ -101,6 +103,8 @@
     text-align: center;
     justify-content: center;
     margin-top: 110px;
+    transform: translateX(5%);
+
 }
 
 .aboutUsPict {
@@ -136,7 +140,6 @@
 }
 
 .sliderBox {
-    margin-top: 50px;
     margin-left: 20%;
     justify-content: center;
     z-index: 1;

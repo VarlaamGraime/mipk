@@ -1,7 +1,6 @@
 import React from 'react';
 import BodyStyle from '../Styles/Body.css'
 import aboutUs from '../assets/aboutUs.png'
-import Slider from './Slider';
 
 const Body = () => {
     return (
@@ -33,7 +32,7 @@ const Body = () => {
             <div className='aboutTitleBlock'>
                 <h3 className='aboutTitle'>О нас</h3>
             </div>
-            <div class="image-container">
+            <div className="image-container">
                 <img className='aboutUsPict' src={aboutUs} />
             </div>
             <p className='textAbout textAboutMargin'>АНО ДПО СПБ МИПК начал свой путь в г. Санкт-Петербурге еще в 2013 году. С 2013 года нашими клиентами стали около 29 000 физических и более 56 000 юридических лиц на территории России, а партнерский реестр насчитывает свыше 5000 компаний. На сегодняшний день наши филиалы представлены в следующих городах: Иркутск, Краснодар, Симферополь, Севастополь, Владивосток, Москва.</p>

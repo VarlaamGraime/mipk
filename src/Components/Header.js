@@ -32,7 +32,7 @@ const Header = () => {
 
                 <div className='infoHeader'>
                     <h4 className='timeWorkText'>ПН-ВС 09:00 - 18:00 (МСК)</h4>
-                    <h3 className='phoneText'>8 (800) 000-00-00</h3>
+                    <h3 className='phoneText'> 8 (800) 000-00-00</h3>
                     <h4 className='mailText'>info@spmipk.com</h4>
                 </div>
             </div>

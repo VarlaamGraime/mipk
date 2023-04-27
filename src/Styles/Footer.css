@@ -1,27 +1,27 @@
 .containerFooter {
     background: #041741;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    height: 410px;
+    box-shadow: 0rem 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
+    height: 25.625rem;
     width: 100%;
-    margin-top: 132px;
-    padding-left: 370px;
+    margin-top: 8.25rem;
+    padding-left: 23.125rem;
     display: flex;
     flex-direction: row;
     overflow: hidden;
 }
 
 .connectBlock {
-    margin-top: 38px;
-    margin-left: 15px;
+    margin-top: 2.375rem;
+    margin-left: 0.9375rem;
 }
 
 .callButton {
-    width: 300px;
-    height: 46px;
-    left: 15px;
-    top: 0px;
+    width: 18.75rem;
+    height: 2.875rem;
+    left: 0.9375rem;
+    top: 0rem;
     background: #9C10E2;
-    border-radius: 5px;
+    border-radius: 0.3125rem;
     color: white;
     border: none;
     transition: background-color 0.5s ease-in-out;
@@ -36,23 +36,23 @@
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
-    line-height: 22px;
+    font-size: 1.125rem;
+    line-height: 1.375rem;
     text-decoration-line: underline;
     color: #FFFFFF;
     cursor: pointer;
-    width: 176px;
-    margin-top: 30px;
+    width: 11rem;
+    margin-top: 1.875rem;
 }
 
 .phoneFooter {
     font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
-    line-height: 21px;
+    font-size: 1.125rem;
+    line-height: 1.3125rem;
     color: #FFFFFF;
-    margin-top: 34px;
+    margin-top: 2.125rem;
     cursor: pointer;
 
 }
@@ -61,21 +61,21 @@
     font-family: 'Ubuntu Condensed';
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
-    line-height: 21px;
+    font-size: 1.125rem;
+    line-height: 1.3125rem;
     display: flex;
     align-items: flex-end;
     color: #FFFFFF;
-    margin-top: 39px;
+    margin-top: 2.4375rem;
     cursor: pointer;
 
 
 }
 
 .iconFooter {
-    max-width: 30px;
-    max-height: 30px;
-    margin-right: 10px;
+    max-width: 1.875rem;
+    max-height: 1.875rem;
+    margin-right: 0.625rem;
     cursor: pointer;
     transform: translateY(10%);
 }
@@ -89,48 +89,48 @@
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
-    line-height: 22px;
+    font-size: 1.125rem;
+    line-height: 1.375rem;
     color: #FFFFFF;
-    width: 300px;
-    margin-top: 32px;
-    margin-left: 38px;
+    width: 18.75rem;
+    margin-top: 2rem;
+    margin-left: 2.375rem;
 }
 
 .infoTextFooterReq {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
-    line-height: 22px;
+    font-size: 1.125rem;
+    line-height: 1.375rem;
     color: #FFFFFF;
 }
 
 .flexTextUp {
-    margin-top: 30px;
+    margin-top: 1.875rem;
 }
 
 .flexText {
     display: flex;
     flex-direction: row;
-    margin-left: 38px;
+    margin-left: 2.375rem;
 
 }
 
 
 .orderButton {
-    width: 300px;
-    height: 46px;
-    left: 15px;
-    top: 0px;
+    width: 18.75rem;
+    height: 2.875rem;
+    left: 0.9375rem;
+    top: 0rem;
     background: rgba(255, 0, 0, 1);
-    border-radius: 5px;
+    border-radius: 0.3125rem;
     color: white;
     border: none;
     transition: background-color 0.5s ease-in-out;
     cursor: pointer;
-    margin-top: 45px;
-    margin-left: 38px;
+    margin-top: 2.8125rem;
+    margin-left: 2.375rem;
 
 }
 
@@ -143,13 +143,13 @@
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
-    line-height: 22px;
+    font-size: 1.125rem;
+    line-height: 1.375rem;
     display: flex;
     align-items: center;
     text-align: center;
     color: #FFFFFF;
-    width: 500px;
-    margin-left: 70px;
-    margin-top: 365px;
+    width: 31.25rem;
+    margin-left: 4.37525rem;
+    margin-top: 22.8125rem;
 }

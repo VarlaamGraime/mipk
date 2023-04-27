@@ -36,7 +36,7 @@ const CompSlider = () => {
     const { onClick } = props;
     return (
       <button className="customPrevArrow" onClick={onClick}>
-        <img src={arrowL } />
+        <img className='widthArr' src={arrowL } />
       </button>
     );
   }
@@ -45,7 +45,7 @@ const CompSlider = () => {
     const { onClick } = props;
     return (
       <button className="customNextArrow" onClick={onClick}>
-        <img src={arrowR }/>
+        <img className='widthArr' src={arrowR }/>
       </button>
     );
   }
@@ -54,17 +54,17 @@ const CompSlider = () => {
         
           <Slider {...settings}>
             <div>
-              <img src={artBoard} alt="Image 1" />
+              <img className='widthImg'  src={artBoard} alt="Image 1" />
               <button className='buttonSlide'>Подробнее</button>
             </div>
             <div>
-              <img src={artBoard} alt="Image 2" />
+            <img className='widthImg'  src={artBoard} alt="Image 2" />
             </div>
             <div>
-              <img src={artBoard} alt="Image 3" />
+            <img className='widthImg'  src={artBoard} alt="Image 3" />
             </div>
             <div>
-              <img src={artBoard} alt="Image 4" />
+            <img className='widthImg'  src={artBoard} alt="Image 4" />
             </div>
           </Slider>
             

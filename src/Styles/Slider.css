@@ -1,29 +1,29 @@
 .customPrevArrow {
-    width: 60px;
-    height: 60px;
+    width: 3.75rem;
+    height: 3.75rem;
     border-radius: 50%;
     background-color: white;
     border: none;
     cursor: pointer;
     position: relative;
-    bottom: -230px;
+    bottom: -14.375rem;
     z-index: 3;
-    margin-left: 10px;
+    margin-left: 0.625rem;
     transition: background-color 0.5s ease-in-out;
 
 }
 
 .customNextArrow {
-    width: 60px;
-    height: 60px;
+    width: 3.75rem;
+    height: 3.75rem;
     border-radius: 50%;
     background-color: white;
     border: none;
     cursor: pointer;
     position: relative;
     z-index: 3;
-    bottom: 230px;
-    right: -1280px;
+    bottom: 14.375rem;
+    right: -80rem;
     transition: background-color 0.5s ease-in-out;
 
 }
@@ -37,42 +37,48 @@
 
 .slick-dots {
     position: absolute;
-    top: 400px;
-    left: 50%;
-    transform: translateX(-50%);
+    top: 25rem;
+    transform: translateX(-20%);
 }
 
 
 .custom-dots-container {
     background-color: rgb(255, 255, 255);
-    border-radius: 30px;
-    bottom: 20px;
-    padding: 5px;
+    border-radius: 1.875rem;
+    bottom: 1.25rem;
+    padding: 0.3125rem;
     text-align: center;
-    width: 120px;
-    margin-left: 50%;
+    width: 12.5rem;
+    height: 1rem;
+    margin-left: 68.75rem;
     transform: translateX(-100%);
+    position: relative;
+
+}
+
+.custom-dots {
+    margin: -0.5rem;
 }
 
 .buttonSlide {
-    width: 250px;
-    height: 58px;
+    width: 15.625rem;
+    height: 3.625rem;
     background: #FF2121;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 10px;
+    box-shadow: 0rem 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
+    border-radius: 0.625rem;
     color: white;
     border: none;
     transition: background-color 0.5s ease-in-out;
     cursor: pointer;
     position: absolute;
     z-index: 5;
-    bottom: 100px;
-    margin-left: 915px;
+    bottom: 6.25rem;
+    margin-left: 57.1875rem;
     font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 600;
-    font-size: 22px;
-    line-height: 25px;
+    font-size: 1.375rem;
+    line-height: 1.5625rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -85,4 +91,12 @@
 
 .buttonSlide:hover {
     background: rgb(71, 185, 19);
+}
+
+.widthImg {
+    max-width: 84.5625rem;
+}
+
+.widthArr {
+    max-width: 1.5rem;
 }

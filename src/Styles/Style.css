@@ -9,6 +9,37 @@ body {
     overflow-x: hidden;
 }
 
-.customPrevArrow {}
+.customPrevArrow {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    bottom: -230px;
+    z-index: 3;
+    margin-left: 10px;
+    transition: background-color 0.5s ease-in-out;
 
-.customNextArrow {}
+}
+
+.customNextArrow {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    z-index: 3;
+    bottom: 230px;
+    right: -1280px;
+    transition: background-color 0.5s ease-in-out;
+
+}
+
+.customPrevArrow:hover,
+.customNextArrow:hover {
+    background-color: rgb(101, 158, 168);
+}
